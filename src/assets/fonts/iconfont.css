@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "vango-icon"; /* Project id 2717984 */
+  src: url('iconfont.woff?t=1637825432774') format('woff'),
+       url('iconfont.ttf?t=1637825432774') format('truetype');
+}
+
+.vango-icon {
+  font-family: "vango-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vango-erp-gouwuchekong:before {
+  content: "\e600";
+}
+
+.vango-erp-caiwushenpi:before {
+  content: "\e624";
+}
+
+.vango-erp-jichupeizhi:before {
+  content: "\e621";
+}
+
+.vango-erp-shangpinguanli:before {
+  content: "\e623";
+}
+
+.vango-erp-shangpinkandeng:before {
+  content: "\e622";
+}
+
+.vango-erp-guizeshezhi:before {
+  content: "\e620";
+}
+
+.vango-erp-dianpuguanli:before {
+  content: "\e61d";
+}
+
+.vango-erp-pingtaishouquan:before {
+  content: "\e61e";
+}
+
+.vango-erp-xiaoxizhongxin:before {
+  content: "\e61f";
+}
+
+.vango-erp-move:before {
+  content: "\e643";
+}
+
+.vango-erp-line-dragmovetuozhuai-02:before {
+  content: "\e6e3";
+}
+
+.vango-erp-lianjie:before {
+  content: "\e610";
+}
+
+.vango-erp-duankai:before {
+  content: "\e613";
+}
+
+.vango-erp-dingdanguanli:before {
+  content: "\e619";
+}
+
+.vango-erp-canshuguanli:before {
+  content: "\e61c";
+}
+
+.vango-erp-ziyingcangku1:before {
+  content: "\e61a";
+}
+
+.vango-erp-quanxianguanli:before {
+  content: "\e61b";
+}
+
+.vango-erp-caigouguanli:before {
+  content: "\e614";
+}
+
+.vango-erp-cangchu:before {
+  content: "\e616";
+}
+
+.vango-erp-shouye:before {
+  content: "\e618";
+}
+
+.vango-erp-xitongguanli:before {
+  content: "\e993";
+}
+
+.vango-erp-liuchengguanli:before {
+  content: "\e612";
+}
+
+.vango-erp-zhijianguanli:before {
+  content: "\e611";
+}
+
+.vango-erp-rukuguanli:before {
+  content: "\e60a";
+}
+
+.vango-erp-chukuguanli1:before {
+  content: "\e60d";
+}
+
+.vango-erp-dingdanchuli2:before {
+  content: "\e60b";
+}
+
+.vango-erp-shouhuoguanli:before {
+  content: "\e60e";
+}
+
+.vango-erp-gongyingshangguanli1:before {
+  content: "\e60f";
+}
+

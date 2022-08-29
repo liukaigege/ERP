@@ -1,0 +1,5 @@
+bulletinBoard  看板
+ >salesVolume 销量
+ >performance 履约
+ >logistics 物流
+routine 日常工作

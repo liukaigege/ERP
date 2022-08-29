@@ -1,0 +1,194 @@
+//覆盖element-plus样式
+.el-table .my-cell .cell {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.myDialog .el-dialog__body {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.el-menu-item {
+	background: #ffffff;
+}
+
+
+.el-menu {
+	border-right: none !important;
+}
+
+.el-menu-item:hover {
+	background-color: #f8fafb !important;
+}
+
+.el-menu {
+	border: none !important;
+}
+
+[role="tooltip"].el-popper:not(.el-picker__popper) {
+	max-height: 500px;
+	max-width: 750px;
+	overflow: auto;
+}
+
+
+// .el-pagination {
+//     text-align: center;
+//     margin-top: 20px;
+// }
+
+.el-popper__arrow {
+	display: none;
+}
+
+.slide-left-enter-from {
+	transform: translateX(20px);
+	opacity: 0;
+}
+
+.slide-left-enter-to {
+	transform: translateX(0px);
+}
+
+.slide-left-leave-from {
+	transform: translateX(0);
+}
+
+.slide-left-leave-to {
+	transform: translateX(20px);
+	opacity: 0;
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active {
+	transition: all 0.3s;
+}
+
+// el-form-item 去掉margin-bottom
+.filter-el-form {
+	.el-form-item {
+		margin-bottom: 0;
+	}
+}
+
+.flex-div.upload-demo {
+	.el-upload--text {
+		display: flex;
+	}
+}
+
+.sperator-big-date-picker.el-date-editor {
+	.el-range-separator {
+		width: 8%;
+	}
+}
+
+.none-border-card.el-card {
+	border: none;
+}
+
+.no-padding.el-card {
+	.el-card__body {
+		padding: 0;
+	}
+}
+
+// 统一表格头部加背景色
+.el-table th.el-table__cell {
+	background-color: #FAFAFA !important;
+}
+
+.el-table thead.is-group th.el-table__cell {
+	background-color: #FAFAFA;
+}
+
+// 上下间距较小的表格
+.small-vertical-padding-table.el-table th,
+.el-table td {
+	padding: 8px 0;
+}
+
+// 二次确认弹框上下间距太小
+.el-popconfirm__action {
+	margin-top: 10px;
+}
+
+.el-form-item__content {
+	.el-radio-group {
+		width: 100%;
+	}
+}
+
+// vxe-table  校验信息宽度
+.vxe-table--render-default .vxe-body--column.col--valid-error .vxe-cell--valid {
+	width: auto !important;
+	max-width: 250px;
+	white-space: nowrap;
+}
+// .vxe-table--tooltip-wrapper.vxe-table--valid-error,
+// .vxe-table--render-default .vxe-body--column.col--valid-error .vxe-cell--valid .vxe-cell--valid-msg {
+// 	padding: 2px 6px !important;
+// }
+
+.el-button>span {
+	display: inline-block !important;
+
+	&>div:first-child {
+		margin-bottom: 10px;
+	}
+}
+
+.vxe-input {
+	height: 32px !important;
+}
+
+.el-form--inline .el-form-item {
+	margin-right: 10px !important;
+}
+
+.el-pagination {
+	justify-content: flex-end;
+}
+
+.el-select .el-select__tags .el-tag:first-child {
+	margin-left: 6px;
+}
+
+.el-input-number {
+	width: auto;
+}
+
+// 调整disabled样式，使显示更清晰
+.more-clear-disabled {
+	.el-input.is-disabled .el-input__inner {
+		color: #666;
+		background-color: #ededed;
+	}
+
+	.el-checkbox__input.is-disabled+span.el-checkbox__label {
+		color: #666;
+	}
+
+	.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
+		background-color: #ededed;
+		border-color: #ededed;
+	}
+
+	.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
+		border-color: #666;
+	}
+
+	.el-radio__input.is-disabled.is-checked .el-radio__inner {
+		background-color: #BCBCBC;
+	}
+
+	.el-radio__input.is-disabled.is-checked .el-radio__inner::after {
+		background-color: #FFF;
+	}
+
+	.el-radio__input.is-disabled+span.el-radio__label {
+		color: #777;
+	}
+}

@@ -1,0 +1,7 @@
+@use "sass:map";
+// 如有需要可自定义主题样式
+$--color-primary: red !default;
+$--color-success: #67c23a !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #f56c6c !default;
+$--color-info: #909399 !default;
